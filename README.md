@@ -46,7 +46,7 @@ open index.html file in any browser
 
 ## Authors
 
-* **Vineet Kumar** - *Initial work*
+* **Vineet Kumar** 
 
 
 ## Acknowledgments
