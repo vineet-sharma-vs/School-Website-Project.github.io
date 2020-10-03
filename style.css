@@ -1,0 +1,73 @@
+#loading {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(192, 192, 192, 0.5);
+  background-image: url("https://i.stack.imgur.com/MnyxU.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#container1{
+	background: url(images/img_8_1.jpg);
+	background-repeat: none;
+	background-size: cover;
+}
+
+#container3{
+	background: #f8f9fa;
+}
+
+#carouselBackground{
+	background: dodgerblue;
+	height: 300px;
+}
+
+
+#galleryImages{
+	width: 400px;
+	height: 300px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#myImageDiv1{
+	transition: 0.5s ease;
+	width: 250px;
+	height: 270px;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 1000px 1000px;
+	animation: gradient 1s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#myImageDiv1Overlay{
+	position: absolute;
+	left: 14px;
+	right: 0;
+	bottom: 12px;
+	width: 0;
+	height: 40px;
+	background:dodgerblue;
+    transition: .5s ease;
+}
+
