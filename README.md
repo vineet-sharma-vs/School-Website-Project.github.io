@@ -37,7 +37,7 @@ open index.html file in any browser
 
 
 ## Deployment
-
+https://vineet-sharma-vs.github.io/School-Website-Project.github.io/
 
 ## Built With
 
